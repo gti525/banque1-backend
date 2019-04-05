@@ -32,7 +32,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 @EnableScheduling
 public class CronJob {
       
-       private static int TIMEDIFF =  1*60; // 20 Mins
+       private static int TIMEDIFF =  20*60; // 20 Mins
        
         @Autowired
         TransactionsRepository transRepository;
